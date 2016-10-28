@@ -31,7 +31,7 @@ lines(subdata$Time, as.numeric(subdata$Sub_metering_2), type = "l", lty = 1, col
 
 lines(subdata$Time, as.numeric(subdata$Sub_metering_3), type = "l", lty = 1, col = "blue")
 
-legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black", "red", "blue"), lty=, lwd=2, bty="n")
+legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black", "red", "blue"), lty=1)
 
 #plot 4
 
